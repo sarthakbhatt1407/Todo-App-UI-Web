@@ -106,6 +106,7 @@ body {
 
 .add {
     position: absolute;
+    border-radius: 0.5rem;
     border: 2px solid orange;
     display: flex;
     flex-direction: column;
