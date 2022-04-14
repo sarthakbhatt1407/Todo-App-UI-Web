@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.head {
+    padding: 4rem 18rem;
+    position: relative;
+
+}
+
+.heading-task {
+    font-size: 2.5rem;
+}
+
+.heading-list {
+    color: rgb(93, 93, 93);
+    font-weight: 100;
+    font-size: 2.5rem;
+
+}
+
+.add-list {
+    position: absolute;
+    top: 4.3rem;
+    display: flex;
+    right: 19rem;
+    color: rgb(93, 93, 93);
+    font-size: 1.3rem;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon {
+    background-color: red;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 0.4rem 0.5rem 0.6rem;
+    margin: 0.1rem 1rem;
+    border-radius: 50%;
+}
+
+.card-tab {
+    display: flex;
+    width: 100%;
+    padding: 1rem 10vh;
+    justify-content: center;
+}
+
+.card {
+    width: 15rem;
+    text-align: center;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.623);
+    height: 23rem;
+    border: 3px solid rgba(247, 104, 104, 0.8);
+    border-radius: 0.8rem;
+}
+
+.card:not(:last-child) {
+    margin-right: 5rem;
+}
+
+.card-heading {
+    color: rgb(247, 108, 108);
+    font-size: 2rem;
+    margin: 1.5rem 1.1rem;
+    font-weight: 100;
+    padding: 0.2rem;
+    border-bottom: 1px solid grey;
+}
+
+.card-para {
+    color: red;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 2.2rem 1rem;
+    text-decoration: line-through;
+}
+
+.check {
+    font-size: 1.2rem;
+    margin-right: 3rem;
+
+}
+
+
+.pending {
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
